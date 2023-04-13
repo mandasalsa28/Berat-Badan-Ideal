@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:text="Cek Berat Badan Ideal.id"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/kisspng_measuring_scales_computer_icons_portable_network_g_5c09e5594430f6_0988908115441524092793" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Berat Badan (kg)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edbb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="10pt"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Tinggi Badan (cm)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edtinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="10pt"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bthitung"
+        android:onClick="hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung IMT" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Besar Indeks Massa Tubuh (IMT)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edIMT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="10pt"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Keterangan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="10pt"
+        android:inputType="textPersonName"
+        android:text="" />
+
+</LinearLayout>
